@@ -2,6 +2,7 @@
 
 class Solution {
 public:
+    //Use two for-loops 
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> a;
         int index1 =0;
@@ -16,6 +17,13 @@ public:
                     int b[]={index1,index2};
                     a.assign(b,b+2);
                 }
+        return a;
+    }
+    
+    //Use hashmap
+    vector<int> twoSum(vector<int>& nums, int target){
+        vector<int> a;
+        
         return a;
     }
 
